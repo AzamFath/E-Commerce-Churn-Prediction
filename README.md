@@ -28,10 +28,10 @@ Dataset yang digunakan dapat diunduh dari [sumber dataset](https://www.kaggle.co
 Pada proyek ini, digunakan beberapa library Python seperti Pandas, NumPy, dan Matplotlib untuk melakukan analisis data. File `E-Commerce Churn Prediction.ipynb` menyajikan langkah-langkah analisis secara rinci. Namun disini saya hanya akan menampilkan hasil analisis data sesuai dengan pertanyaan riset yang sudah dibuat dan untuk tahapan analisis bisa dilihat di file `E-Commerce Churn Prediction.ipynb`
 
 1. Hasil Pemodelan Machine Learning dengan masing-masing metric
-![Logo Project](https://drive.google.com/file/d/1Y5y9Xa8-QSeAy5VuctmhK4L1YWmJRrAP/view?usp=drive_link)
+![Hasil Pemodelan ML](Hasil pemodelan ML.png)
 
 2. Feature Importance
-![Logo Project](https://drive.google.com/file/d/1D1KyPjjVRCFAjQCQN5wWtfDgxLomwikl/view?usp=sharing)
+![Feature Importance](Feature Importance.png)
 
 ## Simpulan
 
