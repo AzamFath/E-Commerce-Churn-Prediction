@@ -26,10 +26,9 @@ The dataset used can be downloaded from the [dataset source](https://www.kaggle.
 In this project, several Python libraries such as Pandas, NumPy, and Matplotlib are used for data analysis. The file `E-Commerce Churn Prediction.ipynb` presents the detailed analysis steps. However, here, I will only display the results of the analysis according to the research questions previously formulated, and the analysis steps can be found in the file `E-Commerce Churn Prediction.ipynb`.
 
 1. Results of Machine Learning Modeling with respective metrics
-![Modeling Results](<fig/Modeling Results ML.png>)
+![Modeling Results](https://github.com/AzamFath/E-Commerce-Churn-Prediction/blob/main/Hasil%20pemodelan%20ML.png)
 
 2. Feature Importance
-![Feature Importance](<fig/Feature Importance.png>)
 
 ![Feature Importance](https://github.com/AzamFath/E-Commerce-Churn-Prediction/blob/main/Feature%20Importance.png)
 
