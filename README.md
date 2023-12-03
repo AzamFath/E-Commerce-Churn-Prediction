@@ -31,6 +31,8 @@ In this project, several Python libraries such as Pandas, NumPy, and Matplotlib 
 2. Feature Importance
 ![Feature Importance](<fig/Feature Importance.png>)
 
+![Feature Importance](https://github.com/AzamFath/E-Commerce-Churn-Prediction/blob/main/Feature%20Importance.png)
+
 ## Conclusion
 
 The analysis results indicate that the best model is XGBoost with its F2 score metric. From the feature importance, it is evident that there are 2 features with the highest values, namely tenure and complain. Hyperparameter Tuning has been applied to XGBoost, and the results are not significantly different from before tuning. Business recommendations will be based on the top 2 features in Feature Importance.
