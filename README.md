@@ -1,60 +1,59 @@
 # E-Commerce-Churn-Prediction
 Classification Model for Churn Prediction
 
-# Analisis Data E-Commerce menggunakan Python
+## Background
 
-## Latar Belakang
+The e-commerce company in this dataset has a churn rate of 16.8%. Customer churn is something businesses need to prevent as retaining existing customers is cheaper than acquiring new ones (Reichheld & Sasser, 1990). According to data from Chargebee Blog (2022) and Recurly Research (2022), a good churn rate for e-commerce companies is around 5%-10%. Therefore, there is a need for a system capable of identifying customers with a likelihood of churn, implementing further treatment to prevent them from churning.
 
-Perusahaan e-commerce pada dataset ini memiliki tingkat persentase churn sebesar 16,8%. _Customer churn_ adalah salah satu hal yang perlu dicegah oleh bisnis karena biaya mempertahankan _customer_ lebih murah dibandingkan menarik _customer_ baru (Reichheld & Sasser, 1990). Berdasarkan data dari Chargebee Blog (2022) dan Recurly Research (2022) yang menunjukkan kisaran _churn rate_ yang baik untuk perusahaan _e-commerce_ sekitar 5%-10%. Maka dari itu dibutuhkan sistem yang mampu mengetahui customer mana yang memiliki kemungkinan churn lalu dilakukan _treatment_ lebih lanjut agar customer itu tidak benar-benar churn
+## Objectives
 
-## Objektif
+The main objective of this project is to create a system that can identify customers with a likelihood of churn, pinpoint the causes of churn, and provide recommendations to prevent actual churn.
 
-Objektif utama proyek ini adalah untuk membuat sistem yang mampu mengetahui customer yang memiliki kemungkinan churn, mengidentifikasi penyebab churn, dan memberi saran agar customer tersebut tidak benar-benar churn
+## Research Questions
 
-## Pertanyaan Riset
+1. What is the best machine learning model to predict customer churn in this dataset?
 
-1. Model Machine Learning apa yang terbaik untuk memprediksi customer churn pada dasaset ini?
+2. What factors contribute to customer churn?
 
-2. Faktor apa saja yang membuat customer akan churn?
+3. What are the best recommendations to prevent customer churn?
 
-3. Saran apa yang terbaik agar customer tidak benar-benar churn?
+## Data and Assumptions
 
-## Data dan Asumsi
+The dataset used can be downloaded from the [dataset source](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction). The assumption in this study is that I ONLY process the dataset, and I cannot guarantee the validity of the dataset as there is no clarity on whether the data truly belongs to any specific e-commerce company, and the country of origin of the e-commerce is unknown.
 
-Dataset yang digunakan dapat diunduh dari [sumber dataset](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction). Asumsi pada penelitian ini adalah saya HANYA mengolah dataset saja, perihal apakah dataset valid atau tidak, saya tidak bisa menjamin karena tidak ada kejelasan apakah data tersebut memang benar punya salah satu E-Commerce, dan tidak diketahui dari E-Commerce negara mana
+## Data Analysis
 
-## Analisis Data
+In this project, several Python libraries such as Pandas, NumPy, and Matplotlib are used for data analysis. The file `E-Commerce Churn Prediction.ipynb` presents the detailed analysis steps. However, here, I will only display the results of the analysis according to the research questions previously formulated, and the analysis steps can be found in the file `E-Commerce Churn Prediction.ipynb`.
 
-Pada proyek ini, digunakan beberapa library Python seperti Pandas, NumPy, dan Matplotlib untuk melakukan analisis data. File `E-Commerce Churn Prediction.ipynb` menyajikan langkah-langkah analisis secara rinci. Namun disini saya hanya akan menampilkan hasil analisis data sesuai dengan pertanyaan riset yang sudah dibuat dan untuk tahapan analisis bisa dilihat di file `E-Commerce Churn Prediction.ipynb`
-
-1. Hasil Pemodelan Machine Learning dengan masing-masing metric
-![Hasil Pemodelan ML](Hasil pemodelan ML.png)
+1. Results of Machine Learning Modeling with respective metrics
+![Modeling Results](<fig/Modeling Results ML.png>)
 
 2. Feature Importance
-![Feature Importance](Feature Importance.png)
+![Feature Importance](<fig/Feature Importance.png>)
 
-## Simpulan
+## Conclusion
 
-Hasil analisis menunjukkan bahwa model yang terbaik adalah XGBoost dengan metric nya F2 score, dan dari feature importance dapat diketahui bahwa terdapat 2 fitur yang memiliki nilai yang tertinggi yaitu tenure dan complain. Untuk yang XGBoost sudah dilakukan Hyperparameter Tuning dan hasilnya tidak terlalu berbeda dari sebelum di Hyperparamter Tuning. Dan untuk saran bisnis akan didasari dari 2 fitur tertinggi Feature Importance
+The analysis results indicate that the best model is XGBoost with its F2 score metric. From the feature importance, it is evident that there are 2 features with the highest values, namely tenure and complain. Hyperparameter Tuning has been applied to XGBoost, and the results are not significantly different from before tuning. Business recommendations will be based on the top 2 features in Feature Importance.
 
-## Saran
+## Recommendations
 
-Berdasarkan hasil analisis, beberapa saran yang dapat dipertimbangkan oleh pemilik bisnis E-Commerce adalah:
+Based on the analysis results, some recommendations that the e-commerce business owner may consider are:
 
 1. Start Membership Program
 
-Perusahaan dapat memperpanjang Tenure dengan membuat Program Membership. Dengan Perusahaan membuat Program Membership maka Customer akan mendapatkan manfaat lebih banyak dengan membayar uang terlebih dahulu. Hal ini dilakukan agar Customer melakukan pembelian lebih sering karena sudah ikut program membership.
+The company can extend tenure by introducing a Membership Program. With a Membership Program, customers will receive more benefits by paying upfront. This encourages customers to make purchases more frequently as they are part of the membership program.
 
-Menurut McKinsey "62% konsumen lebih cenderung membelanjakan lebih banyak uang setelah berlangganan program loyalitas berbayar", dan Menurut LoyaltyOne "64% anggota program bersedia membayar jika mereka menerima manfaat yang lebih baik seperti pengiriman gratis. Persentase ini bahkan meningkat jadi 70% untuk generasi millennial".
+According to McKinsey, "62% of consumers are more likely to spend more money after subscribing to a paid loyalty program," and according to LoyaltyOne, "64% of program members are willing to pay if they receive better benefits such as free shipping. This percentage even increases to 70% for millennials."
 
 2. Start Reward Program
 
-Perusahaan dapat memperpanjang Tenure dengan membuat Program Reward. Dengan Program Reward maka Customer akan merasa dihargai sehingga Customer akan bertahan lebih lama di Platform E-Commerce yang artinya adalah Tenurenya akan bertambah.
+The company can extend tenure by implementing a Reward Program. With a Reward Program, customers feel appreciated, leading to longer customer retention on the e-commerce platform, resulting in increased tenure.
 
-Dalam sebuah Laporan yang diterbitkan oleh WireCard yang berjudul The Wirecard 2019 Consumer Incentives report, dikutip bahwa: "For over half of respondents, rewards rated as extremely or very important for both big-ticket and small, habitual purchases", Selain itu juga ditulis "Over 92% of customers agree that rewards influence their purchase decision", dan lebih mengejutkannya lagi "75% of customers said they were likely to make another purchase after receiving an incentive".
+In a report published by WireCard titled The Wirecard 2019 Consumer Incentives report, it is mentioned that: "For over half of respondents, rewards rated as extremely or very important for both big-ticket and small, habitual purchases." Additionally, "Over 92% of customers agree that rewards influence their purchase decision," and even more surprisingly, "75% of customers said they were likely to make another purchase after receiving an incentive."
 
 3. Start Chatbot
 
-Perusahaan dapat membuat Chatbot agar Customer segera mendapatkan jawaban dari pertanyaannya. Chatbot sendiri dapat beroperasi 24 jam tanpa henti sehingga akan meningkatkan Kenyamanan Customer. Chatbot juga bisa terhubung dengan Customer Service sehingga Customer tetap bisa mendapatkan jawaban yang lebih lengkap dari permasalahan yang dialami Customer.
+The company can introduce a Chatbot to provide immediate answers to customer queries. A Chatbot can operate 24/7, enhancing customer convenience. The Chatbot can also connect with Customer Service to ensure customers receive comprehensive answers to their queries.
 
-Dari Artikel yang diterbitkan oleh Qontak, dikutip bahwa “Penjualan akan meningkat secara otomatis karena terciptanya kepuasan pelanggan serta hubungan yang baik dengan pelanggan. Chatbot tidak hanya dapat menjawab pertanyaan pelanggan, namun dapat dimanfaatkan untuk menawarkan katalog produk pada bisnis Anda menggunakan fitur robot marketing.”
+According to an article published by Qontak, "Sales will automatically increase due to customer satisfaction and a good relationship with customers. The Chatbot can not only answer customer questions but can also be utilized to offer product catalogs to your business using the robot marketing feature."
+
