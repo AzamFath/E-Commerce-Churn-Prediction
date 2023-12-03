@@ -1,9 +1,9 @@
-# E-Commerce-Churn-Prediction
+# E-Commerce Churn Prediction
 Classification Model for Churn Prediction
 
 ## Background
 
-The e-commerce company in this dataset has a churn rate of 16.8%. Customer churn is something businesses need to prevent as retaining existing customers is cheaper than acquiring new ones (Reichheld & Sasser, 1990). According to data from Chargebee Blog (2022) and Recurly Research (2022), a good churn rate for e-commerce companies is around 5%-10%. Therefore, there is a need for a system capable of identifying customers with a likelihood of churn, implementing further treatment to prevent them from churning.
+The E-Commerce company in this dataset has a churn rate of 16.8%. Customer churn is something businesses need to prevent as retaining existing customers is cheaper than acquiring new ones (Reichheld & Sasser, 1990). According to data from Chargebee Blog (2022) and Recurly Research (2022), a good churn rate for e-commerce companies is around 5%-10%. Therefore, there is a need for a system capable of identifying customers with a likelihood of churn, implementing further treatment to prevent them from churning.
 
 ## Objectives
 
@@ -30,7 +30,7 @@ In this project, several Python libraries such as Pandas, NumPy, and Matplotlib 
 
 2. Feature Importance
 
-![Feature Importance](https://github.com/AzamFath/E-Commerce-Churn-Prediction/blob/main/Feature%20Importance.png)
+![Feature Importance](https://github.com/AzamFath/E-Commerce-Churn-Prediction/blob/main/Feature%20Importance.jpg)
 
 ## Conclusion
 
